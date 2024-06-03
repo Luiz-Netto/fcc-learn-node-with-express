@@ -1,0 +1,27 @@
+{
+  "name": "fcc-learn-node-with-express",
+	"author": {
+		"name": "Luiz Netto",
+		"email": "luiznetto@protonmail.com"
+	},
+	"description": "This project is a part of the https://www.freecodecamp.org/ course on back-end and Api's using nodeJs.",
+	"keywords": [
+		"NodeJs",
+		"API",
+		"Study",
+		"freecodecamp"
+	],
+	"license": "MIT",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.14.0",
+    "fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
